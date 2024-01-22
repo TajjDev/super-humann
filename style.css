@@ -16,14 +16,14 @@ main{
 }
 .container{
     width: 83%;
-    height:95vh ;
+    height:100vh ;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .mthYr{
     width: 100%;
-    height: 10vh;
+    height: 50px;
     /* border: 1px solid aqua; */
     display: flex;
     flex-direction: row;
@@ -32,7 +32,7 @@ main{
 }
 .mthYr button{
     width: 120px;
-    height: 35px;
+    height: 30px;
     background-color: rgba(22, 22, 22, 0.445);
     color: #fff;
     border: 1px solid rgb(48, 48, 48);
@@ -46,7 +46,7 @@ main{
 }
 .content{
     width: 98%;
-    height: 83vh;
+    height: 447.4px;
     /* border: 1px solid orange; */
     display: flex;
     flex-direction: row;
@@ -54,8 +54,8 @@ main{
     align-items: center;
 }
 .con{
-    width: 33%;
-    height: 70vh;
+    width: 31%;
+    height: 395px;
     border: 2px solid rgba(48, 48, 48, 0.541);
     border-radius: 10px 0 0 10px;
     border-right: none;
@@ -71,8 +71,9 @@ main{
     border-right: 2px solid rgba(70, 69, 69, 0.651);
 }
 #growth{
-    width:38% ;
-    height:78vh ;
+    width:36% ;
+    height:440.4px ;
+    margin-top: -10px;
     border-radius: 10px;
     border-right: 2px solid rgba(48, 48, 48, 0.541);
     background-color:rgba(41, 40, 40, 0.781) ;
@@ -84,7 +85,7 @@ main{
 .concon{
     width: 80%;
     /* border: 1px solid rgb(157, 157, 196); */
-    height: 50vh;
+    height: 290px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -100,7 +101,6 @@ main{
     border-radius: 3px;
     text-align: center;
     padding: 4px 0 4px 0;
-    /* height: 5vh; */
     display:flex ;
     flex-direction: row;
     justify-content: center;
@@ -109,17 +109,17 @@ main{
     background: linear-gradient(to right, rgb(199, 100, 150), rgba(219, 102, 219, 0.705));
 }
 .gro{
-    height:9vh ;
+    height:70.2px ;
     /* border:1px solid rgb(216, 203, 203); */
     width: 90%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 .gro h3{
    color: rgb(138, 108, 247);
-   font-size: 25px;
+   font-size: 23px;
    font-weight: 600;
    text-align: center;
 }
@@ -160,7 +160,7 @@ main{
     /* font-weight: 500; */
 }
 .pp{
-    height:12vh ;
+    height:93.6 ;
 }
 .usr{
     display: flex;
@@ -180,12 +180,12 @@ main{
 }
 .vim{
     color: white;
-    font-size: 55px;
+    font-size: 48px;
     font-weight: 600;
     text-align: center;
 }
 .vimm{
-    font-size: 55px;
+    font-size: 48px;
     font-weight: 600;
     text-align: center;
     color: gray;
@@ -211,7 +211,7 @@ main{
 }
 .users{
     width:70%;
-    height: 8vh;
+    height: 62.4px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -221,8 +221,8 @@ main{
     width: 82%;
 }
 .users .btn2{
-    width: 42px;
-    height: 42px;
+    width: 37px;
+    height: 35px;
     background: none;
     color: #afabab;
     /* border: 1px solid rgb(48, 48, 48); */
@@ -239,8 +239,8 @@ main{
 .btn1{
     background-color:rgba(56, 55, 55, 0.881);
     border: none;
-    width: 42px;
-    height: 42px;
+    width: 37px;
+    height: 35px;
     color: #afabab;
     border-radius: 5px;
     border-radius: 5px;
@@ -258,12 +258,12 @@ main{
     color: white;
     text-align: center;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
 }
 .users p{
     font-size: 13px;
-    width: 110px;
+    width: 85px;
     border-radius: 5px;
     color: #ccc8c8;
     border: 1px solid #aaa8a862;
@@ -271,7 +271,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 40px;
+    height: 35px;
 }
 .get{
     height:50px ;
@@ -279,11 +279,11 @@ main{
     width: 90%;
 }
 .get .btngg{
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     color: white;
     width: 100%;
-    height: 45px;
+    height: 40px;
     background: none;
     background:linear-gradient(to right, rgb(138, 90, 226), rgb(0, 204, 255)) ;
     border: none;
@@ -304,18 +304,18 @@ main{
     border-right: 1px solid rgb(0, 204, 255);
     border-top: 1px solid rgb(129, 72, 235);
     border-bottom: 1px solid rgb(0, 204, 255);
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     color: white;
     width: 100%;
-    height: 45px;
+    height: 40px;
     background: none;
     /* background:linear-gradient(to right, rgb(129, 72, 235), rgb(0, 204, 255)) ; */
     /* border: none; */
     border-radius: 5px;
 }
 #growth .concon{
-    height: 60vh;
+    height: 350px;
 }
 /* .starter .concon{
     height: 50vh;
